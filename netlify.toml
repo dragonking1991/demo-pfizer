@@ -1,7 +1,7 @@
 [[headers]]
   for = "*.mp4"
     [headers.values]
-      Cache-Control = "public, max-age=2629743"
+      Cache-Control = "public, max-age=7776000"
 
 # If skip_processing = true, all other settings are ignored
 [build.processing]

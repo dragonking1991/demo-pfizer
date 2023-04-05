@@ -1,4 +1,8 @@
 // const isIE = /*@cc_on!@*/false || !!document.documentMode
 
+<<<<<<< HEAD
 /* Wed Apr 05 2023 23:23:19 GMT+0700 (Indochina Time) */
+=======
+/* Wed Apr 05 2023 07:04:36 GMT+0700 (Indochina Time) */
+>>>>>>> parent of f261d66 (update)
 /* v1.0.3 */

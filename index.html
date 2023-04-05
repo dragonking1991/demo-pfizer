@@ -43,7 +43,7 @@
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    <div class="swiper-slide">
+    <div class="swiper-slide slide--main">
       <div class="slide__dashboard">
         <img
           src="assets/images/landing/Pfizer_Logo_White_RGB.svg"
@@ -56,34 +56,33 @@
           class="dashboard__zavi"
         />
         <div class="dashboard__inner">
-          <img
-            src="assets/images/landing/PW_Logo.svg"
-            alt=""
-            class="dashboard__pw"
-          />
+          <div class="dashboard__pw">
+            <img
+              src="assets/images/landing/PW_Logo.svg"
+              alt=""
+              class="dashboard__pw"
+            />
+          </div>
           <p class="dashboard__param">
             Are you ready to test your pathogen knowledge in<br />
             an augmented reality quiz?
           </p>
         </div>
       </div>
-    </div>
-    <div class="swiper-slide">
-      <div class="slide__inner">
-        <div class="leaderboard__logo">
-          <img src="assets/images/landing/PW_Logo1.svg" alt="" />
-        </div>
+
+      <div class="leaderboard__inner">
         <div class="leaderboard__slider">
           <h2>Leaderboard</h2>
-          <ul class="leader-list" data-by="country">
-            <li>
-              <img src="assets/images/landing/empty.svg" alt="" style="margin:1vw auto"/>
-            </li>
-          </ul>
+          <div class="leaderboard__wrap">
+            <ul class="leaderboard__list" data-by="country">
+              <li>
+                <img src="assets/images/landing/empty.svg" alt="" style="margin:1vw auto"/>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-    
     <div class="swiper-slide slide--video">
       <button class="btn-play hidden">Click To Play</button>
       <video autoplay="" playsinline="" muted="" preload="auto" data-time-limit="60">
@@ -96,7 +95,6 @@
     </div>
   </div>
 
-  
 </div>
   <!---->
 

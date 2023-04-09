@@ -1,4 +1,0 @@
-// const isIE = /*@cc_on!@*/false || !!document.documentMode
-
-/* Thu Apr 06 2023 00:34:59 GMT+0700 (Indochina Time) */
-/* v1.0.3 */
